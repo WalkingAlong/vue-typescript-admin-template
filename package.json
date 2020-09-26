@@ -127,5 +127,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armour/vue-typescript-admin-template.git"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": ["src/**/*.{ts,vue}"]
   }
+
 }
